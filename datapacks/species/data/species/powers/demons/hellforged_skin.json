@@ -1,0 +1,14 @@
+{ 
+	"name": "Hellforged Skin", 
+	"description": "The flames of the overworld harm you no longer, merely warming you.", 
+	"type": "origins:fire_immunity", 
+		"condition": { 
+			"type": "origins:in_block", 
+			"block_condition": { 
+				"type": "origins:block", 
+				"block": "minecraft:soul_fire" 
+			},
+			"inverted": true 
+		} 
+	}
+

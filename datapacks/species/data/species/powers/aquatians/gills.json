@@ -1,0 +1,19 @@
+{
+  "name": "Gills",
+  "description": "Aquatians were born for the water and like fish can breathe submerged in it.",
+  "type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:water_breathing",
+			"duration": 200
+		}
+	},
+	"interval": 180,
+	"show_icon": false,
+	"show_particles": false,
+	"condition": {
+	  "type": "origins:submerged_in",
+	  "fluid": "minecraft:water"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Nynthial",
+    "description": "",
+    "powers": [
+        "origins:fall_immunity",
+		"origins:nine_lives",
+		"origins:velvet_paws",
+		"origins:scare_creepers",
+		"origins:climbing",
+		"origins:light_armor",
+		"origins:sprint_jump",
+		"species:nynthials/nimble",
+		"species:nynthials/overloaded",
+		"species:nynthials/strength"
+    ],
+	"icon": "minecraft:salmon",
+    "impact": 1
+}

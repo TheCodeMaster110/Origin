@@ -1,0 +1,18 @@
+{
+  "name": "Vulnerability",
+  "description": "A reaper can only persish to signature weapon, The Scythe.",
+  "type": "origins:prevent_death",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:using_item",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:hoes"
+        }
+      }
+    },
+	 "inverted": true
+  }
+}

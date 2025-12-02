@@ -1,0 +1,7 @@
+{
+	"description": "This gives reapers heightened hunger as they need to be killing entities often.",
+	"type": "origins:exhaust",
+	"hidden": "true",
+	"interval": 400,
+	"exhaustion": 2.5
+}

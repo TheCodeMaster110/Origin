@@ -1,0 +1,33 @@
+{
+  "name": "No Purpose",
+  "description": "If a reaper doesn't kill, it lacks purpose and therefore its power.",
+  "type": "origins:action_over_time",
+  "interval": 100, 
+  "entity_action": { 
+	"type": "origins:apply_effect",
+	"effects": [
+		  {
+            "effect": "minecraft:weakness",
+            "duration": 400,
+			"amplifier": 3,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:slowness",
+            "duration": 400,
+			"amplifier": 2,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+	},
+	
+ "condition": {
+    "type": "origins:health",
+    "comparison": "<",
+	"compare_to": 6
+  }
+}

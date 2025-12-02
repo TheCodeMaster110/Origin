@@ -1,0 +1,16 @@
+{
+  "name": "Crucifix PT.3",
+  "description": "Your healing is blocked for 5 seconds after the crucifix activates.",
+  "type": "origins:modify_healing",
+  "hidden": true,
+
+  "condition": {
+    "type": "origins:power_active",
+    "power": "species:demons/crucifix/crucifix2"
+  },
+
+  "modifier": {
+    "value": -1.0,
+    "operation": "multiply_total"
+  }
+}

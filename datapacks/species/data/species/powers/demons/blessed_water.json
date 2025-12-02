@@ -1,0 +1,28 @@
+{
+  "name": "Blessed Waters",
+  "description": "The holy waters burn you with divine fury.",
+  "type": "origins:action_when_hit",
+
+  "bientity_action": {
+    "type": "origins:target_action",
+    "action": {
+      "type": "origins:damage",
+      "amount": 6,
+      "damage_type": "minecraft:magic"
+    }
+  },
+
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:using_item",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:water\"}"
+        }
+      }
+    }
+  }
+}

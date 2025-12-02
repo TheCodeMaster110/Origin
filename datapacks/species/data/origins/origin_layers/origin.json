@@ -1,0 +1,10 @@
+{
+    "origins": [
+        "species:demon",
+		"species:nynthial",
+		"species:reaper",
+		"species:aquatian",
+		"species:bcp_human"
+    ],
+    "enabled": true
+}

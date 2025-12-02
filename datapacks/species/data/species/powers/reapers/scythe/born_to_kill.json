@@ -1,0 +1,9 @@
+{
+	"name": "Born to Kill",
+	"description": "As a reaper, you're born with a scythe by your side.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:netherite_hoe"
+		},
+	"recurrent": false
+}

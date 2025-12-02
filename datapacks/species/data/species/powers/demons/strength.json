@@ -1,0 +1,9 @@
+{
+    "name": "Demon Strength",
+    "description": "As a demon your stronger than the meatbags you torment.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "value": 4.5,
+        "operation": "addition"
+    }
+}

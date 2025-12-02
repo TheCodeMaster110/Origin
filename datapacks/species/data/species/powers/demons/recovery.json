@@ -1,0 +1,10 @@
+{
+  "name": "Demonic Recovery",
+  "description": "Due to being subjected to hell, you're able to make quicker recoveries than most.",
+  "type": "origins:modify_healing",
+
+  "modifier": {
+    "value": 3,
+    "operation": "multiply_total"
+  }
+}

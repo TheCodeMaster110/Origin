@@ -1,0 +1,19 @@
+{
+    "name": "Demon",
+    "description": "Risen from the pits of hell, you are an agent of chaos.",
+    "powers": [
+        "species:demons/hellforged_skin",
+        "species:demons/strength",
+		"species:demons/scars",
+		"species:demons/blessed_water",
+		"species:demons/salt", 
+		"species:demons/power_of_suffering",
+		"species:demons/recovery",
+		"species:demons/crucifix/crucifix",
+		"species:demons/crucifix/crucifix2",
+		"species:demons/crucifix/crucifix3",
+		"species:demons/crucifix/crucifix4"
+    ],
+	"icon": "minecraft:fire_charge",
+    "impact": 3
+}
