@@ -1,0 +1,13 @@
+{
+  "name": "Death cannot eat",
+  "description": "Food provides no nourishment for a reaper.",
+  "type": "origins:modify_food",
+  "food_modifier": {
+    "value": 0,
+    "operation": "set_total"
+  },
+  "saturation_modifier": {
+    "value": 0,
+    "operation": "set_total"
+  }
+}

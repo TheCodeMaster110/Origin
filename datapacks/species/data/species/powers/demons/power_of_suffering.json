@@ -1,0 +1,33 @@
+{
+  "name": "Power of Suffering",
+  "description": "Suffering, pain and torment only makes these creatures of evil that much more dangerous.",
+  "type": "origins:action_over_time",
+  "interval": 100, 
+  "entity_action": { 
+	"type": "origins:apply_effect",
+	"effects": [
+		  {
+            "effect": "minecraft:strength",
+            "duration": 400,
+			"amplifier": 1,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:resistance",
+            "duration": 400,
+			"amplifier": 2,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+	},
+	
+ "condition": {
+    "type": "origins:health",
+    "comparison": "<",
+	"compare_to": 8
+  }
+}

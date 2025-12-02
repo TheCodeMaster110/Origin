@@ -1,0 +1,10 @@
+{
+  "name": "Death Hungers",
+  "description": "As a reaper, you MUST kill.",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 2,
+    "saturation": 1.0
+  }
+}

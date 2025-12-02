@@ -1,0 +1,15 @@
+{
+  "name": "Back to normal",
+  "description": "Turns off healing debuffer when 100 ticks is up. Entity_action is the part that turns ON the toggle.", 
+  "type": "origins:action_over_time",
+  "hidden": true, 
+  "interval": 80,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "species:demons/crucifix/crucifix2"
+  },
+  "entity_action": {
+    "type": "origins:toggle",
+    "power": "species:demons/crucifix/crucifix2"
+  }
+}

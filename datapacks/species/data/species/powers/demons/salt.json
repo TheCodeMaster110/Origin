@@ -1,0 +1,22 @@
+{
+  "name": "Salt", 
+  "description": "As a demon, the purity of salt sends you back.", 
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:add_velocity",
+	"x": -6,
+	"set": true
+	},
+  "condition": {
+	"type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:white_carpet"
+    },
+    "radius": 2,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

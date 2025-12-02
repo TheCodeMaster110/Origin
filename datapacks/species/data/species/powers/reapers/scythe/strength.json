@@ -1,0 +1,18 @@
+{
+  "name": "The Reaper's Scythe",
+  "description": "Reaper's attacks hurt much more when they're using their signature weapon.",
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "value": 2.5,
+    "operation": "addition"
+  },
+  "entity_condition": {
+    "type": "origins:using_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "minecraft:hoes"
+      }
+    }
+  }
+}

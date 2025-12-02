@@ -1,0 +1,13 @@
+{
+  "name": "Simmering Scars",
+  "description": "The flames of hell will always find new ways to torment sinners like you.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 6.0
+  } 
+}

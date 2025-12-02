@@ -1,0 +1,9 @@
+{
+    "name": "Human",
+    "description": "The most adaptable species of any kind.",
+    "powers": [
+    ],
+	"icon": "minecraft:player_head",
+	"order": 0,
+    "impact": 3
+}

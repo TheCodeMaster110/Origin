@@ -1,0 +1,15 @@
+{
+    "name": "Aquatian",
+    "description": "The mythical mermaids of the sea. You're at your best when in the waters, bordering on unrivaled. With relative ease, your kind has dominated the waves and anything that wanders them will eventually answer to you.",
+    "powers": [
+        "origins:aqua_affinity",
+		"origins:aquatic", 
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:water_vision",
+		"species:aquatians/land_legs",
+		"species:aquatians/gills"
+    ],
+	"icon": "minecraft:cod",
+    "impact": 2
+}

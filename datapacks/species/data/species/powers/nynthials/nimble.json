@@ -1,0 +1,10 @@
+{
+	"name": "Nimble",
+	"description": "Like a cat, nynthials can move much faster than most other creatures.",
+	"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"value": 1.2,
+			"operation": "multiply_base"
+		}
+}

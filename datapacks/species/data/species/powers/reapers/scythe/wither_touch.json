@@ -1,0 +1,29 @@
+{
+  "name": "Decaying stab",
+  "description": "When a reaper stabs something with its scythe it can cause it to wither away to nothing but dust.",
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:target_action",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:wither",
+        "duration": 100,
+        "amplifier": 1,
+        "is_ambient": false,
+        "show_particles": true,
+        "show_icon": true
+      }
+    }
+  },
+    "condition": {
+      "type": "origins:using_item",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:netherite_hoe"
+        }
+      }
+  },
+  "cooldown": 100
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Ghost",
+    "description": "A spirit from beyond the grave.",
+	"unchoosable": true, 
+    "powers": [
+    ],
+	"icon": "minecraft:spectral_arrow",
+	"order": 1,
+    "impact": 3
+}

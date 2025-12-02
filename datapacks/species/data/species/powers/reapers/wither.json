@@ -1,0 +1,6 @@
+{
+	"name": "Wither Immunity",
+	"description": "As a reaper, you will not wither.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither"
+}

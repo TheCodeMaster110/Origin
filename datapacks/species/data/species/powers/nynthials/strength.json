@@ -1,0 +1,9 @@
+{
+    "name": "Feline Strength",
+    "description": "Cats are known some of earths greatest predators.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "value": 2,
+        "operation": "addition"
+    }
+}
